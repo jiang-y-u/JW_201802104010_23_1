@@ -19,6 +19,7 @@ package cn.edu.sdjzu.xg.bysj.controller.basic.degree;
 @WebServlet("/degree.ctl")
 public class ListDegreeController extends HttpServlet {
     //GET http:129.211.46.129:8080/degree.ctl
+    //
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         //设置响应字符编码为UTF-8
